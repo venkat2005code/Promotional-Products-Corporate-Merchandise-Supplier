@@ -1,6 +1,35 @@
 # Changelog
 
 
+## 2.4.0 — 2026-10-22
+
+Website review corrections (Sep slot 3, second correction).
+
+- Header: the "Categories" link was removed (the category content on Products is unchanged); the mobile menu no longer repeats the direction control.
+- Home 1 "Shop by Category": titles, text, tags and buttons line up across the three cards.
+- Home 2 Campaign Showcase and Bulk Orders "Built For" are grids instead of sideways scrollers.
+- Products: a 21st product (Kraft Paper Gift Bag); the filter panel is only sticky beside the grid (it covered products on phones); card buttons wrap at 1024px; the bottom quick-action bar fits 360px screens.
+- Custom Branding: the How It Works detail panel no longer stretches into a large empty box; card grids stack on narrow phones (also Corporate Gifting and Pricing).
+- Blog: the newsletter form fits 360px screens.
+
+## 2.3.1 — 2026-10-11
+
+Follow-up fixes after the review corrections.
+
+- Custom Branding: "Use This Placement in My Request" wraps instead of overflowing 320px screens.
+- Mobile menu: the Home submenu now collapses (`.mobile-nav-sub[hidden]`); it was always expanded.
+- Dark mode: outline buttons on dark sections keep dark text on their white hover fill (contrast was 1.2:1).
+- Social-sharing image (`og-image.jpg`) updated to the current logo mark and accent colour; size unchanged (1200 × 630).
+- In-page links land below the sticky header (`scroll-padding-top`).
+
+## 2.3.0 — 2026-10-09
+
+Website review corrections (Sep slot 3, first correction).
+
+- New visual identity so BrandCraft no longer reads as a recolour of ThreadMark: plum and raspberry palette with a sunflower highlight (light and dark mode), a light lilac utility bar, pill-chip section labels, inset product image "wells", sunflower stock badges and a recoloured logo.
+- Home 2: the dark navy split hero is now a light colour-block layout with a framed, tilted team photo on a sunflower panel.
+- Accent buttons: text contrast raised from 2.9:1 to 5.0:1 in light mode; dark text on pink in dark mode (7.0:1).
+
 ## 2.2.0 — 2026-09-28
 
 Home menu, requirements review and integration points.
